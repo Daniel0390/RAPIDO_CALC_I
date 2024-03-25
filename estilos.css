@@ -1,0 +1,156 @@
+
+@font-face {
+    font-family: 'Name'; /*a name to be used later*/
+    src: url('Silky Queen.woff'); /*URL to font*/
+    }
+
+
+body{
+    background-color: black;
+}
+
+/* 
+.registrase{
+    border: 1px solid rgb(30, 98, 153);
+    width: 325px;
+    height: 650px;
+    margin: auto;
+    border-radius: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(13, 11, 61) 0%, rgba(166,20,255,0.49343487394957986) 13%, rgba(0,212,255,1) 100%);;
+    top: 8.5px;
+    left: 41.5%;
+    position: absolute;
+    color: rgb(252, 245, 241);
+} */
+
+
+.contenedor_1{
+    border: gray 1px solid;
+    width: 325px;
+    height: 650px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: bisque;
+    position: relative;
+   
+}
+
+
+.achu_altura{
+    font-size: 25px;
+   
+    letter-spacing: 2px;
+}
+
+#contenedor_2{
+    border: 1px rgb(19, 19, 19) solid;
+    border-radius: 10px;
+    position: relative;
+    
+
+   
+}
+
+.div_logo_public{
+  position: absolute;
+  border: black solid 1px;
+  width: 324px;
+   height: 142px;
+   top: 102px;
+   background-color: bisque;
+   border-radius: 10px;
+   text-align: center;
+}
+
+h4{
+    font-family:  'Name';
+    background-color: rgb(233, 147, 43);
+    font-size: 25px;
+    margin-top: 1px;
+    letter-spacing: 1px;
+    color:rgb(16, 39, 16);
+}
+
+
+
+
+
+
+/* label{
+    font-size: 30px;
+} */
+
+
+
+p{
+    font-size: 30px; 
+    margin: 15px; 
+    margin-left: 10px;
+    letter-spacing: 2px;
+    
+}
+
+.boton1{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: 70px;
+    background-color: darkgreen;
+    font-size: 25px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+#boton2{
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    left: 80%;
+    top: 0px;
+    background-color: crimson;
+    border-radius: 10px;
+    color: rgb(254, 255, 255);
+}
+
+.inp_anch_alt{
+    height: 35px;
+    border-radius: 10px;
+    line-height: 50;
+    width: 90px;
+    margin: 0px;
+    font-size: 25px;
+}
+
+input{
+    height: 35px;
+    border-radius: 10px;
+    line-height: 50;
+    width: 80px;
+
+}
+
+.medidas_numeros{
+    border: gray solid 1px;
+    border-radius: 10px;
+    position: absolute;
+    right: 40%;
+    display: flex;
+    flex-direction: column;
+    top: 0%;
+}
+
+.ventana{
+    position: absolute;
+    right: 10%;
+}
+.inp2{
+    height: 9px;
+    border-radius: 10px;
+}
+
+.INP_FORM{
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <LINK REL=StyleSheet HREF="estilos.css" TYPE="text/css" MEDIA=screen>
+    <title>Document</title>
+</head>
+      
+    
+     
+<body>
+   
+   
+
+      <div class="contenedor_1">
+      
+      
+    <form id="mi_formulario">
+      <div id="contenedor_2">
+        <label class="achu_altura"><b>anchura</b></label> &#160&#160
+        <input type="number" step="any" id="valor1" autofocus placeholder="esribe un numero" class="inp_anch_alt">
+           <button onclick="limpiar();" id="boton2"><b>limpiar</b></button>
+
+
+
+    <br>
+    <br>
+         
+         <label class="achu_altura"><b>altura</b></label> &#160&#160&#160&#160 &#160&#160&#160
+         <input type="number" step="any" id="valor2" autofocus placeholder="escrive un numero" class="inp_anch_alt">
+      </div>
+
+      <div class="div_logo_public"><H4>--RAPIDO CALC--</H4></div>
+      
+      
+      <label><b>valor de resto</b></label> &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160  
+         <input type="number" readonly value=".37" id="elresto"  class="inp2"><br>
+      <label><b>valor de divicion</b></label>   &#160 &#160 &#160 &#160 &#160 &#160
+          <input type="number" readonly value="2" id="eldivisor"  class="inp2"><br>
+      <label><b>resto de altura</b></label>   &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 
+         <input type="number" readonly value="1" id="elresto_alt" class="inp2"><br>
+      <label><b>resto de rieles</b></label>  &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160
+         <input type="number" readonly value=".25" id="elrestorieles" class="inp2"><br>
+      <label><b>resto de laterales</b></label>&#160 &#160  &#160 &#160 &#160 &#160 &#160
+       <input type="number" readonly value=".62" id="elrestolate" class="inp2"><br>
+      <label><b>resto de ancho de vidrios</b></label>
+       <input type="number" readonly value="1.87" id="restodeanchodevidrio" class="inp2"><br>
+      <label><b>resto de alto de vidrio</b></label>  &#160 &#160 &#160
+       <input type="number" readonly value="3" id="restodealtodevidrio" class="inp2"><br>
+
+      
+      
+    <br>
+    
+       
+         
+         <button type="button" onclick="calcular();" class="boton1"><B></B>calcular<B></B></button>
+         
+        
+
+    <br>
+    
+
+         <p style="background-color: black;"><b>es =</b>         :  <span id="alf_result" ></span></p>
+
+       <U style="color: rgb(99, 8, 8);"><p><b>Alfersal  </b></U>        :               <span id="alf_result2" ></span></p>
+       <U style="color: rgb(5, 80, 74);"><p><b>jamb      </b> </U>      &#160   &#160&#160 :    <span id="jamb_result"></span></p>
+       <U style="color: rgb(15, 88, 12);"><p><b>Rieles   </b></U>      &#160  &#160:    <span id="rieles_result"></span></p>
+       <U style="color: rgb(100, 18, 66);"><p><b>Laterales</b></U>   :                      <span id="laterales_result"></span></p>
+       <U style="color: rgb(119, 102, 5);"><p><b>Vidr.Anch</b> </U>  :                      <span id="Vidr.Anch_result"></span></p>
+       <U style="color: rgb(4, 15, 107);"><p><b>Vidr.Alt</b></U>   :                      <span id="Vidr.Alt_result"></span></p>
+    
+
+         
+           
+
+
+    </form>
+
+
+   
+   </div>
+
+
+   <!-- <div class="registrase"> 
+
+      <label>  <h2>NOMBRE</h2>      </label>     <input type="text" class="INP_FORM">
+      <label>  <h2>APELLIDO</h2>      </label>     <input type="text" class="INP_FORM">
+      <label>  <h2>CONTRASEÑA</h2>  </label>     <input type="text" class="INP_FORM" readonly>
+
+      <label>  <h2>TELEFONO</h2>    </label>     <input type="text" class="INP_FORM">
+
+
+      
+
+
+
+
+   </div> -->
+
+   
+   
+
+
+
+
+
+
+    <script src="codigo.js"></script>
+</body>
+</html>
