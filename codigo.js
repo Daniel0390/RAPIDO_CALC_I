@@ -6,9 +6,9 @@ function limpiar(){
 function calcular (){
    let ancho  = parseFloat  (document.getElementById("valor1").value );
    let resto  = parseFloat  (document.getElementById("elresto").value );
-   let result = (document.getElementById("alf_result").innerHTML= ancho - resto);
+   let result = document.getElementById("alf_result").innerHTML= ancho - resto  ;
    let divisor= parseFloat(document.getElementById("eldivisor").value);    
-let ancho_total = document.getElementById("alf_result2").innerHTML= result / divisor;
+let ancho_total =document.getElementById("alf_result2").innerHTML= result / divisor ;
 
     let alto = parseFloat(document.getElementById("valor2").value);
     let resto_de_alto = parseFloat(document.getElementById("elresto_alt").value);

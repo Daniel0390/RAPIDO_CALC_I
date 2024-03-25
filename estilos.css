@@ -28,7 +28,7 @@ body{
 .contenedor_1{
     border: gray 1px solid;
     width: 325px;
-    height: 650px;
+    height: 100vh;
     margin: auto;
     border-radius: 10px;
     background-color: bisque;
