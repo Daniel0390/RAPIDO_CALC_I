@@ -8,7 +8,7 @@ function calcular (){
    let resto  = parseFloat  (document.getElementById("elresto").value );
    let result = document.getElementById("alf_result").innerHTML= ancho - resto  ;
    let divisor= parseFloat (document.getElementById("eldivisor").value);    
-let ancho_total =document.getElementById("alf_result2").innerHTML= result / divisor ;
+let ancho_total = Number(document.getElementById("alf_result2").innerHTML= result / divisor).toFixed(2) ;
 
     let alto = parseFloat(document.getElementById("valor2").value);
     let resto_de_alto = parseFloat(document.getElementById("elresto_alt").value);
