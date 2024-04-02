@@ -16,7 +16,7 @@ let ancho_total =document. (getElementById("alf_result2").innerHTML= result / di
 
     let rieles = parseFloat(document.getElementById("valor1").value);
     let resto_rieles = parseFloat(document.getElementById("elrestorieles").value);
-    Number(document.getElementById("rieles_result").innerHTML= rieles - resto_rieles).tofixed(2);
+    (document.getElementById("rieles_result").innerHTML= rieles - resto_rieles);
     
      let latera = parseFloat(document.getElementById("valor2").value);
      let  resto_laerale=parseFloat(document.getElementById("elrestolate").value);
