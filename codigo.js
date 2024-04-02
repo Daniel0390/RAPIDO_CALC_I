@@ -8,11 +8,11 @@ function calcular (){
    let resto  = parseFloat  (document.getElementById("elresto").value );
    let result = document.getElementById("alf_result").innerHTML= ancho - resto  ;
    let divisor= parseFloat (document.getElementById("eldivisor").value);    
-let ancho_total =document. Number(getElementById("alf_result2").innerHTML= result / divisor ).tofixed(2);
+let ancho_total =document. (getElementById("alf_result2").innerHTML= result / divisor );
 
     let alto = parseFloat(document.getElementById("valor2").value);
     let resto_de_alto = parseFloat(document.getElementById("elresto_alt").value);
-    let alto_total = Number(document.getElementById("jamb_result").innerHTML= alto - resto_de_alto).tofixed(2);
+    let alto_total = (document.getElementById("jamb_result").innerHTML= alto - resto_de_alto);
 
     let rieles = parseFloat(document.getElementById("valor1").value);
     let resto_rieles = parseFloat(document.getElementById("elrestorieles").value);
@@ -20,14 +20,14 @@ let ancho_total =document. Number(getElementById("alf_result2").innerHTML= resul
     
      let latera = parseFloat(document.getElementById("valor2").value);
      let  resto_laerale=parseFloat(document.getElementById("elrestolate").value);
-     Number(document.getElementById("laterales_result").innerHTML= latera - resto_laerale)tofixed(2);
+     (document.getElementById("laterales_result").innerHTML= latera - resto_laerale);
 
 
      let achovid = parseFloat(document.getElementById("restodeanchodevidrio").value);
-     Number(document.getElementById("Vidr.Anch_result").innerHTML= ancho_total - achovid )tofixed(2); 
+     (document.getElementById("Vidr.Anch_result").innerHTML= ancho_total - achovid ); 
 
      let altovid = parseFloat(document.getElementById("restodealtodevidrio").value);
-      Number(document.getElementById("Vidr.Alt_result").innerHTML= alto_total - altovid )tofixed(2); 
+      (document.getElementById("Vidr.Alt_result").innerHTML= alto_total - altovid ); 
 
       
 }
